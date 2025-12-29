@@ -11,8 +11,8 @@ st.set_page_config(
 )
 @st.cache_resource
 def load_model():
-    tokenizer = RobertaTokenizer.from_pretrained("LizaSR-fake-news-roberta")
-    model = RobertaForSequenceClassification.from_pretrained("LizaSR-fake-news-roberta")
+    tokenizer = RobertaTokenizer.from_pretrained("sroyliza/LizaSR-fake-news-roberta")
+    model = RobertaForSequenceClassification.from_pretrained("sroyliza/LizaSR-fake-news-roberta")
     model.eval()
     return model, tokenizer
 
