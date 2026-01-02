@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets
+data/
+*.csv
+*.json
+*.xlsx
+
+# ML models (DO NOT PUSH)
+*.pt
+*.bin
+*.h5
+*.ckpt
+model/
+models/
+
+# Hugging Face cache
+.cache/
