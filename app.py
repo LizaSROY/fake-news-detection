@@ -36,10 +36,10 @@ st.markdown("""
 @st.cache_resource
 def load_model():
     model = RobertaForSequenceClassification.from_pretrained(
-        "/Users/macbook/Desktop/fake_real/roberta_model"
+        "roberta_model"
     )
     tokenizer = RobertaTokenizer.from_pretrained(
-        "/Users/macbook/Desktop/fake_real/roberta_model"
+        "roberta_model"
     )
     model.eval()
     return model, tokenizer
