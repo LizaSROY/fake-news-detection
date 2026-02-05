@@ -10,7 +10,7 @@ using Natural Language Processing (NLP) and deep learning techniques.**
 **The system is built using a transformer-based model and deployed as an
 interactive Streamlit web application.**
 
-🎯 Project Objectives
+### Project Objectives
 
   * Detect fake news based on textual content
   
@@ -20,7 +20,7 @@ interactive Streamlit web application.**
   
   * Deploy the trained model in a user-friendly web interface
 
-🧠 Model
+### Model
 
   * Architecture: Transformer-based model (RoBERTa)
   
@@ -30,10 +30,10 @@ interactive Streamlit web application.**
   
   * Model Hosting: Hugging Face (model size exceeds GitHub limits)
 
-🔗 Pretrained Model:
+### Pretrained Model:
   ** [sroyliza/LizaSR-fake-news-roberta](https://huggingface.co/sroyliza/LizaSR-fake-news-roberta) **
 
-🗂 Project Structure
+### Project Structure
 
   fake-news-detection/
   │
@@ -45,9 +45,9 @@ interactive Streamlit web application.**
   └── README.md         # Project documentation
 
 
-🧪 Dataset
+### Dataset
 
-  * Public fake news dataset (e.g., Kaggle)
+  * Public fake news dataset (Kaggle)
   
   * Dataset has 44898 rows and 6 columns, combined between fake and real news
   
@@ -58,19 +58,19 @@ interactive Streamlit web application.**
   * Dataset is not included due to size limitations
 
 
-⚙️ Installation & Setup
+### Installation & Setup
 
-  1️⃣ Clone the Repository
+  ## Clone the Repository
     -> git clone https://github.com/LizaSROY/fake-news-detection.git
     -> cd fake-news-detection
 
-  2️⃣ Install Dependencies
+  ## Install Dependencies
     -> pip install -r requirements.txt
 
-  ▶️ Run the Application
+  ## Run the Application
     -> streamlit run app.py
 
-📊 Model Performance
+### Model Performance
 
   The model achieved strong performance on the test dataset:
 
@@ -86,7 +86,7 @@ interactive Streamlit web application.**
 
 **These results indicate that the model is able to reliably distinguish between fake and real news with very high confidence.**
 
-🛠 Technologies Used
+### Technologies Used
 
   * Programming Language: Python
   
@@ -100,7 +100,7 @@ interactive Streamlit web application.**
     
   * Evaluation: Scikit-learn
 
-🌐 Deployment
+### Deployment
 
   * Model hosted on Hugging Face
   
@@ -108,7 +108,7 @@ interactive Streamlit web application.**
   
   * GitHub repository contains full source code (excluding large model files)
 
-🔐 Notes
+### Notes
 
   * Trained model weights are not stored in this repository
   
